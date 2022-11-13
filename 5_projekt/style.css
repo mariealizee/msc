@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color: #e50043;
+  }
+  
+  ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .headerSection {
+    background-image: url("./evianorigins.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #e50043;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .limitedEdition {
+    font-size: 80px;
+    color: #e50043;
+  }
+  
+  .ourWater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 150px 0px;
+  }
+  
+  .ourWaterContainer {
+    width: 65%;
+    padding: 20px;
+    border: 2px solid #e50043;
+    border-radius: 10px;
+  }
+  
+  .waterHeader {
+    margin-bottom: 30px;
+  }
+  
+  .waterHeaderPara {
+    line-height: 24px;
+  }
+  
+  .imagesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagesContainerDiv {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .img-container {
+    text-align: center;
+  }
+  
+  .bottle-desc {
+    margin-top: 30px;
+  }
+  
+  .glassContainer {
+    width: 65%;
+    padding: 20px 50px;
+    border: 2px solid #e50043;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .electro {
+    padding: 20px 90px;
+  }
+  
+  .glassimagediv {
+    width: 30%;
+    display: flex;
+    align-items: center; 
+   justify-content: center;
+  }
+  
+  .electrolyte, .naturalDiv {
+    padding: 0px 0px 20px 0px;
+  
+  }
+  
+  .naturalDiv p {
+    margin-bottom: 10px;
+  }
+  
+  footer{
+      background-color:#F8BFC7;
+      padding: 30px 50px;
+      font-size: 40px;
+      color: white;
+  }
