@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 30px 55px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #f8bfc7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList li {
+  list-style: none;
+}
+
+.navList li a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 10%;
+  text-align: end;
+}
+
+.topSection {
+  background-image: url(./background.png);
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px 0px 60px;
+}
+
+form {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainFormControl {
+  background-color: #f8bfc7;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+}
+.formControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 8px 0px;
+  color: white;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  padding: 10px 0px;
+  background-color: #f8bfc7;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+button {
+  background-color: #feb700;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 25px 45px;
+  width: 50%;
+  align-self: center;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bottomSection {
+  background-color: #336fd1;
+  padding: 80px 70px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #feb700;
+}
+
+footer {
+  padding: 30px 55px;
+  background-color: #f8bfc7;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
